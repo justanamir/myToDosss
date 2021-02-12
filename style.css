@@ -1,0 +1,103 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.window {
+  background-color: aquamarine;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.p {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.userInput {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.listBox {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#userinput {
+  border-style: hidden;
+  border-radius: 20em;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  border-style: solid;
+  border-color: black;
+  border-radius: 10em;
+  margin-left: 0.5em;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  border-color: azure;
+  color: azure;
+  background-color: black;
+}
+
+.dBtn {
+  margin-left: 3em;
+  background-color: cadetblue;
+  color: azure;
+  font-size: 0.9rem;
+}
+
+.dBtn:hover {
+  background-color: azure;
+  color: black;
+}
+
+.delBtn {
+  background-color: #9e0707;
+  color: azure;
+  border-style: solid;
+  border-color: azure;
+  margin-left: 0px;
+}
+
+.delBtn:hover {
+  background-color: azure;
+  color: #9e0707;
+}
